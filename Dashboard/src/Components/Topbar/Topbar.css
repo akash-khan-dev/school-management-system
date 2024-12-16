@@ -49,6 +49,7 @@
 
 .dropdown-menu-custom .dropdown-item {
   display: flex;
+  column-gap: 5px;
   align-items: center;
   padding: 10px 15px;
   font-size: 14px;
