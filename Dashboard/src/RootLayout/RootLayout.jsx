@@ -10,7 +10,7 @@ export const RootLayout = () => {
         <div style={{ width: "100%" }}>
           <Topbar />
 
-          <div style={{ marginLeft: "20px" }}>
+          <div style={{ marginLeft: "320px" }}>
             <Outlet />
           </div>
         </div>

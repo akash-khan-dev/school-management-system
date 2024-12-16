@@ -1,0 +1,67 @@
+/* Notice Board Container */
+.notice-board-container {
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-height: 500px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.notice-board-heading {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.notice-board {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.notice {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.notice-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.notice-date {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 0px;
+}
+
+.notice-author {
+  font-size: 15px;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.notice-description {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #555;
+}
+
+.scroll-notices {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.scroll-notices button:hover {
+  background-color: #0056b3;
+}

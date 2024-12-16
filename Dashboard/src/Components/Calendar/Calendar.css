@@ -1,0 +1,118 @@
+/* Calendar Container */
+.calendar-container {
+  /* width: 50%; */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Calendar Header */
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.calendar-month {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.month-nav {
+  padding: 5px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.month-nav:hover {
+  background-color: #0056b3;
+}
+
+/* Calendar Grid */
+.calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+/* Day names (Sun, Mon, etc.) */
+.calendar-day-name {
+  font-weight: bold;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+/* Individual day box */
+.calendar-day {
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.calendar-day:hover {
+  background-color: #f0f0f0;
+}
+
+.event-day {
+  background-color: #ffebcc;
+  border: 1px solid #ffa500;
+}
+
+.event-day:hover {
+  background-color: #ffd966;
+}
+
+/* Event Modal */
+.event-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.event-modal-content {
+  text-align: left;
+}
+
+.event-modal h3 {
+  margin: 0 0 10px;
+}
+
+.event-modal ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.event-modal ul li {
+  margin: 5px 0;
+}
+
+.event-modal button {
+  margin-top: 10px;
+  padding: 5px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.event-modal button:hover {
+  background-color: #0056b3;
+}

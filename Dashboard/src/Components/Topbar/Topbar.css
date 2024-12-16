@@ -2,6 +2,7 @@
   background-color: #f8f9fa;
   border-bottom: 1px solid #dee2e6;
   height: 60px;
+  margin-left: 280px;
 }
 
 .topbar-search input {
@@ -10,13 +11,13 @@
   padding: 0.5rem;
 }
 
-.icon {
+.top-icon {
   font-size: 1.5rem;
   color: #495057;
   cursor: pointer;
 }
 
-.icon:hover {
+.top-icon:hover {
   color: #007bff;
 }
 

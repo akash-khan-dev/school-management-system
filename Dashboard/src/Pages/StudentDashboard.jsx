@@ -1,5 +1,3 @@
-import React from "react";
-
 const StudentDashboard = () => {
   return <div style={{ width: "100%" }}>StudentDashboard</div>;
 };

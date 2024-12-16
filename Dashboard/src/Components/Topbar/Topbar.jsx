@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Topbar.css";
 import { LuMessageSquareMore } from "react-icons/lu";
@@ -18,11 +18,11 @@ const Topbar = () => {
       </div>
 
       <div className="topbar-right d-flex align-items-center">
-        <div className="icon mx-2">
+        <div className="top-icon mx-2">
           <LuMessageSquareMore />
         </div>
 
-        <div className="icon mx-2">
+        <div className="top-icon mx-2">
           <i className="bi bi-bell-fill">
             <IoMdNotificationsOutline />
           </i>
